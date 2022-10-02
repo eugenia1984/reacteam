@@ -1,6 +1,8 @@
+import NavbarHeader from "./NavbarHeader.jsx";
+
 function Header() {
   return(
-    <h2>Header</h2>
+    <NavbarHeader />
   )
 }
 
