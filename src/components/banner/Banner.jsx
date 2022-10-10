@@ -6,7 +6,7 @@ function Banner() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://picsum.photos/100/150"
+          src="https://picsum.photos/800/600"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -17,7 +17,7 @@ function Banner() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://picsum.photos/100/150"
+          src="https://picsum.photos/800/600"
           alt="Second slide"
         />
 
@@ -29,7 +29,7 @@ function Banner() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://picsum.photos/100/150"
+          src="https://picsum.photos/800/600"
           alt="Third slide"
         />
 
