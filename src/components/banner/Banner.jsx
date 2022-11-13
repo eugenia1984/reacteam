@@ -7,7 +7,8 @@ function Banner() {
     <Carousel fade>
       {
         bannerSlides.map( (item, index)  => 
-          <Carousel.Item>
+          <Carousel.Item
+            key={index}>
             <img
               className="d-block"
               height={500}

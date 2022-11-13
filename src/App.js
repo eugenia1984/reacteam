@@ -1,9 +1,9 @@
 import { Routes, Route } from "react-router-dom";
 import Header from "./components/header/Header.jsx";
 import Footer from "./components/footer/Footer.jsx";
-import Home from "./pages/Home.jsx";
-import Productos from "./pages/Productos.jsx";
-import Contacto from "./pages/Contacto.jsx";
+import Home from "./pages/home/Home.jsx";
+import Products from "./pages/products/Products.jsx";
+import Contact from "./pages/contact/Contact.jsx";
 import CardList from "./components/ProductList/CardList"
 import './App.css';
 
@@ -13,8 +13,8 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />}/>
-        <Route path="/productos" element={<Productos />} />
-        <Route path="/contacto" element={<Contacto />} />
+        <Route path="/productos" element={<Products />} />
+        <Route path="/contacto" element={<Contact />} />
       </Routes>
       <CardList />
       <Footer />
