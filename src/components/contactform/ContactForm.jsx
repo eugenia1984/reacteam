@@ -1,7 +1,10 @@
 import { useState } from "react";
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import Swal from 'sweetalert2';
 import LabelForm from "../../generalcomponents/LabelForm";
+import "./ContactFormStyle.css";
+
 
 const initialState = { 
   name: '', 
@@ -21,11 +24,16 @@ function ContactForm() {
   const handleClick = (e) => {
     e.preventDefault()
     console.log(form);
+    Swal.fire({
+      icon: 'success',
+      title: 'Gracias por la consulta',
+      text: 'Estaremos respondiendo dentro de las 24 hras hábiles.',
+    })
   }
-  
+
   return (
-    <Form className="col-sm-10 col-md-8 mb-5">
-      <Form.Group className="mb-4" controlId="formBasicName">
+    <Form className="row g-3 form-mx-width">
+      <Form.Group className="col-md-6 mb-4" controlId="formBasicName">
         <LabelForm text="Ingresa tu nombre:"/>
         <Form.Control 
           type="text" 
@@ -34,9 +42,10 @@ function ContactForm() {
           className="form-control my-2"
           placeholder="Ingresa su nombre"
           onChange={ inputChangeHandle }  
+          required
         />
       </Form.Group>
-      <Form.Group className="mb-4" controlId="formBasicEmail">
+      <Form.Group className="col-md-6 mb-4" controlId="formBasicEmail">
         <LabelForm text="Ingresa tu email:"/>
         <Form.Control 
           type="email" 
@@ -45,13 +54,14 @@ function ContactForm() {
           className="form-control my-2"
           placeholder="Ingresa tu email"
           onChange={ inputChangeHandle }
+          required
         />
         <Form.Text className="text-muted">
           No compartiremos tu email con nadie más.
         </Form.Text>
       </Form.Group>
-      <Form.Group className="mb-4" controlId="formBasicComment">
-      <LabelForm text="Ingresa tu comentario:"/>
+      <Form.Group className="col-12 mb-4" controlId="formBasicComment">
+        <LabelForm text="Ingresa tu comentario:"/>
         <Form.Control 
           as="textarea"
           name="comment"
@@ -63,7 +73,7 @@ function ContactForm() {
         />
       </Form.Group>
       <Button 
-        variant="primary" 
+        variant="dark" 
         type="submit"
         onClick={ handleClick } >
         Enviar
