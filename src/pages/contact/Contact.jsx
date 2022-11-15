@@ -1,7 +1,15 @@
+import ContactForm from "../../components/contactform/ContactForm";
+import Title from "../../generalcomponents/Title";
+
 function Contact() {
+
   return (
-    <h2>Contacto</h2>
-  )
+    <div className="container">
+      <Title text="contacto" /> 
+      <ContactForm />
+    </div>
+  );
+  
 }
 
 export default Contact;
