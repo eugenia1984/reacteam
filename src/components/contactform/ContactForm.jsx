@@ -4,17 +4,17 @@ import Form from 'react-bootstrap/Form';
 import Swal from 'sweetalert2';
 import LabelForm from "../../generalcomponents/LabelForm";
 import "./ContactFormStyle.css";
-
-
-const initialState = { 
-  name: '', 
-  email: '', 
-  comment: '' 
-};
+import ErrorText from "./ErrorText";
 
 function ContactForm() {
-
-  const [form, setForm] = useState(initialState)
+  const regExpEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3,4})+$/
+  const initialState = { 
+    name: '', 
+    email: '', 
+    comment: '' 
+  };
+  const [form, setForm] = useState(initialState);
+  const [error, setError] = useState(false);
 
   const inputChangeHandle = (e) => {
     const { name, value } = e.target
@@ -22,17 +22,37 @@ function ContactForm() {
   }
 
   const handleClick = (e) => {
-    e.preventDefault()
-    console.log(form);
-    Swal.fire({
-      icon: 'success',
-      title: 'Gracias por la consulta',
-      text: 'Estaremos respondiendo dentro de las 24 hras hábiles.',
-    })
-  }
+    e.preventDefault();
 
+    const { name, email, comment } = form;
+    console.log(form);
+
+    // valido que todos los campos esten completos
+    if(!name.trim() || !email.trim() || !comment.trim()){
+      setError(true);
+      return; 
+    } 
+    // valido un email
+    if(regExpEmail.test(email) ) {
+      setError(true);
+      return Swal.fire({
+        icon: "success",
+        title: "Gracias por la consulta",
+        text: "Estaremos respondiendo dentro de las 24 hras hábiles",
+      });
+    } else {
+      setError(false);
+      return Swal.fire({
+        icon: "error",
+        title: "Debe ser un email valido",
+      });
+    }
+    
+  }
+  
   return (
     <Form className="row g-3 form-mx-width">
+      {error && <ErrorText />}
       <Form.Group className="col-md-6 mb-4" controlId="formBasicName">
         <LabelForm text="Ingresa tu nombre:"/>
         <Form.Control 
