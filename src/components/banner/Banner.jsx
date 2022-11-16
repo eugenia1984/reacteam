@@ -22,12 +22,13 @@ function Banner() {
       {
         bannerSlides.map( item => 
           <Carousel.Item
-            key={item}>
+            key={item}
+            className="carousel-item"
+            >
             <img
-              className="d-block w-100"
+              className="d-block w-100 img-carousel"
               src={ item }
               alt={ item } 
-              height={500}
             />
           </Carousel.Item>
         )
