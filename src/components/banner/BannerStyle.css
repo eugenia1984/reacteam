@@ -1,8 +1,11 @@
+.carousel {
+  margin-bottom: 3rem;
+}
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   background-color: black !important;
   border-radius: 50%;
-  padding: 2rem !important;
 }
 
 .carousel-item {
@@ -13,7 +16,7 @@
 
 .img-carousel {
   height: 50vh;
-  margin-top: 1rem;
+  margin: 1rem auto;
   box-shadow: initial;
   box-shadow: 10px 5px 5px rgba(2, 19, 0, 0.5);
   object-fit: cover;
