@@ -1,8 +1,6 @@
 import React from "react";
-import Carousel from "react-bootstrap/Carousel";
 import { CardListItem } from "./CardListItem";
 import cardInfo from "./CardInfo";
-import { Container } from "react-bootstrap";
 
 const CardList = () => {
   return (
