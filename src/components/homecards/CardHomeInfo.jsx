@@ -1,7 +1,7 @@
 const cardHomeInfo = [
   {
     id: 1,
-    image:"https://placehold.co/308x210", 
+    image:"https://placehold.co/300x210", 
     title: "Pantalones", 
     btntext: "Ver"
   },
