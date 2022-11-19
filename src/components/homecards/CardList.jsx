@@ -2,7 +2,7 @@ import React from "react";
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import { CardListItem } from "./CardListItem";
-import cardHomeInfo from "./CardHomeInfo.jsx";
+import cardHomeInfo from "./CardHomeInfo.js";
 import Title from "./../../generalcomponents/Title"
 
 const CardList = () => {

@@ -16,7 +16,7 @@
 
 .img-carousel {
   height: 50vh;
-  margin: 1rem auto;
+  margin: 0 auto 2rem;
   box-shadow: initial;
   box-shadow: 10px 5px 5px rgba(2, 19, 0, 0.5);
   object-fit: cover;
