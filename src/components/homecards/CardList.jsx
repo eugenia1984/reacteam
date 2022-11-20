@@ -12,13 +12,11 @@ const CardList = () => {
       <Row xs={1} md={2} lg={3} className="g-4">
         {cardHomeInfo.map(cardHomeInfo => {
           return (
-            <React.Fragment key={cardHomeInfo.id}>
-              <Col>
+              <Col key={cardHomeInfo.id}>
                 <CardListItem 
                   cardHomeInfo={cardHomeInfo} 
                   key={cardHomeInfo.id} />
               </Col>
-            </React.Fragment>
           )
         })}
       </Row>
