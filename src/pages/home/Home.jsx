@@ -1,7 +1,7 @@
 import Banner from "../../components/banner/Banner.jsx";
 import CardList from "../../components/homecards/CardList";
 
-function Home() {
+export const Home = () => {
   return (
     <>
       <Banner />
@@ -9,5 +9,3 @@ function Home() {
     </>
   );
 }
-
-export default Home;
