@@ -40,15 +40,18 @@ function Footer() {
             </ul>
           </div>
           <div className="col-xs-12 col-sm-5 col-md-3 d-flex justify-content-center">
-            <ul className="social-icons">
-              {socialMedia.map((media, index) => (
-                <li key={index}>
-                  <a href={media.href} target={"_blank"} rel="noreferrer" >
-                    <i><FontAwesomeIcon icon={media.icon} /></i>
-                  </a>
-                </li>
-              ))}
-            </ul>
+            <div className="row">
+              <h6 className="col-12">Redes sociales</h6>
+              <ul className="col-12 social-icons">
+                {socialMedia.map((media, index) => (
+                  <li key={index}>
+                    <a href={media.href} target={"_blank"} rel="noreferrer" >
+                      <i><FontAwesomeIcon icon={media.icon} /></i>
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
         <hr />

@@ -25,14 +25,12 @@ function ContactForm() {
     e.preventDefault();
 
     const { name, email, comment } = form;
-    console.log(form);
 
-    // valido que todos los campos esten completos
     if(!name.trim() || !email.trim() || !comment.trim()){
       setError(true);
       return; 
     } 
-    // valido un email
+
     if(regExpEmail.test(email) ) {
       setError(true);
       return Swal.fire({
@@ -93,6 +91,7 @@ function ContactForm() {
         />
       </Form.Group>
       <Button 
+        className="mb-5"
         variant="dark" 
         type="submit"
         onClick={ handleClick } >
