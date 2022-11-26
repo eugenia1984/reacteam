@@ -1,5 +1,9 @@
+import { CardList } from "../../components/product-card/CardList";
+
 export const Products = () => {
   return (
-    <h2>Productos</h2>
+    <section className="container">
+      <CardList text="Productos"/>
+    </section>
   )
 }
