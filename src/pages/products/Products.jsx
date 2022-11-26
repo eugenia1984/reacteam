@@ -1,12 +1,9 @@
-import { CardListItem } from "../../components/product-card/CardListItem";
+import { CardList } from "../../components/product-card/CardList";
 
 export const Products = () => {
   return (
     <section className="container">
-      <h2>Productos</h2>
-      <section>
-        <CardListItem />
-      </section>
+      <CardList text="Productos"/>
     </section>
   )
 }
