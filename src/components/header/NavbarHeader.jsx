@@ -6,6 +6,12 @@ import Logo from "./Logo.jsx";
 import ShoppingCart from "../shoppingcart/ShoppingCart.jsx";
 
 function NavbarHeader() {
+  const links = [
+    { to: "/",text:"Home" },
+    { to: "/productos", text:"Productos" },
+    { to: "/contacto", text:"contacto" }    
+  ];
+
   return (
     <Navbar bg="dark" variant="dark" expand="lg">
       <Container>
@@ -16,9 +22,9 @@ function NavbarHeader() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Link className="nav-link link-light" to="/">Home</Link>
-            <Link className="nav-link link-light" to="productos">Productos</Link>
-            <Link className="nav-link link-light" to="contacto">Contacto</Link>
+            {links.map((link, index) => (
+              <Link key={index} className="nav-link link-light" to={link.to}>{link.text}</Link>
+            ))}
           </Nav>
         </Navbar.Collapse>
         <ShoppingCart />
