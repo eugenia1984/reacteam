@@ -155,6 +155,46 @@
       "colors": ["blanco", "negro", "gris", "azul", "verde", "camel"],
       "size": ["XS", "S", "M", "L", "XL"],
       "srcImg": ["https://res.cloudinary.com/dtq1qaw4z/image/upload/v1669825409/alta-pinta/1321A014154_ak2yrl.webp", "https://res.cloudinary.com/dtq1qaw4z/image/upload/v1669825409/alta-pinta/1321A014154_1_jrdryh.webp", "https://res.cloudinary.com/dtq1qaw4z/image/upload/v1669825409/alta-pinta/1321A014154_4_brfw0c.webp"] 
+    },
+    {
+      "id": 14,
+      "category": "sweaters-y-cardigans",
+      "title": "Campera básica",
+      "descption": "Campera básica lisa con cierre.",
+      "price": 3990,
+      "colors": ["blanco", "negro", "gris", "azul", "verde", "camel"],
+      "size": ["XS", "S", "M", "L", "XL"],
+      "srcImg": ["https://res.cloudinary.com/dtq1qaw4z/image/upload/v1669825630/alta-pinta/1322A078103_e8ivhi.webp", "https://res.cloudinary.com/dtq1qaw4z/image/upload/v1669825630/alta-pinta/1322A078103_1_lurcgv.webp", "https://res.cloudinary.com/dtq1qaw4z/image/upload/v1669825630/alta-pinta/1322A078103_2_fchszz.webp"] 
+    },
+    {
+      "id": 15,
+      "category": "remeras-y-polos",
+      "title": "Polo lisa",
+      "descption": "Polo lisa manga larga.",
+      "price": 2400,
+      "colors": ["blanco", "negro", "gris", "azul", "verde", "amarillo", "celeste"],
+      "size": ["XS", "S", "M", "L", "XL"],
+      "srcImg": ["https://res.cloudinary.com/dtq1qaw4z/image/upload/v1669825799/alta-pinta/13229562119_a4op9s.webp", "https://res.cloudinary.com/dtq1qaw4z/image/upload/v1669825799/alta-pinta/13229562119_3_bpdi3j.webp"] 
+    },
+    {
+      "id": 16,
+      "category": "remeras-y-polos",
+      "title": "Polo con bolsillo",
+      "descption": "Polo lisa manga corta con bolsillo.",
+      "price": 2100,
+      "colors": ["blanco", "negro", "gris", "azul", "verde", "amarillo", "celeste"],
+      "size": ["XS", "S", "M", "L", "XL"],
+      "srcImg": ["https://res.cloudinary.com/dtq1qaw4z/image/upload/v1669825960/alta-pinta/13009510101_2_nnblld.webp", "https://res.cloudinary.com/dtq1qaw4z/image/upload/v1669825960/alta-pinta/13009510101_qlnuor.webp" ] 
+    },
+    {
+      "id": 17,
+      "category": "pantalones",
+      "title": "Traje de baño",
+      "descption": "Traje de baño liso con bolsillos laterales.",
+      "price": 3200,
+      "colors": ["negro", "gris", "azul", "verde", "celeste"],
+      "size": ["XS", "S", "M", "L", "XL"],
+      "srcImg": ["https://res.cloudinary.com/dtq1qaw4z/image/upload/v1669826081/alta-pinta/13222902153_uio6dw.webp", "https://res.cloudinary.com/dtq1qaw4z/image/upload/v1668610984/alta-pinta/bermuda-rustico1_qwgivo.webp", "https://res.cloudinary.com/dtq1qaw4z/image/upload/v1669826081/alta-pinta/13222902153_3_mt06h0.webp"] 
     }
   ]
   
