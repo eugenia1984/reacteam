@@ -1,0 +1,91 @@
+{
+  "categories": [ 
+    {
+      "id": 1,
+      "categorie": "pantalones"
+    },
+    {
+      "id": 2,
+      "categorie": "remeras-y-polos"
+    },
+    {
+      "id": 3,
+      "categorie": "abrigos-y-camperas"
+    },
+    {
+      "id": 4,
+      "categorie": "calzados"
+    },
+    {
+      "id": 5,
+      "categorie": "camisas"
+    },
+    {
+      "id": 6,
+      "categorie": "sweaters-y-cardigans"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "category": "pantalones",
+      "title": "Bermuda rústica",
+      "descption": "Bermuda rústica de lino.",
+      "price": 3000,
+      "colors": ["blanco", "negro", "gris", "azul", "verde", "camel"],
+      "size": ["small", "medium", "large"],
+      "srcImg": ["https://res.cloudinary.com/dtq1qaw4z/image/upload/v1668610997/alta-pinta/bermuda-rustico2_wn9koy.webp", "https://res.cloudinary.com/dtq1qaw4z/image/upload/v1668610984/alta-pinta/bermuda-rustico1_qwgivo.webp"] 
+    },
+    {
+      "id": 2,
+      "category": "camisas",
+      "title": "Camisa",
+      "descption": "Camisa de algodón.",
+      "price": 2000,
+      "colors": ["blanco", "negro", "gris", "azul", "verde", "rosa"],
+      "size": ["small", "medium", "large"],
+      "srcImg": ["https://res.cloudinary.com/dtq1qaw4z/image/upload/v1668610997/alta-pinta/camisa-blanca2_x3irvy.webp", "https://res.cloudinary.com/dtq1qaw4z/image/upload/v1668610997/alta-pinta/camisa-blanca3_c248sv.webp"] 
+    },
+    {
+      "id": 3,
+      "category": "remeras-y-polos",
+      "title": "Remera lisa",
+      "descption": "Remera lisa de algodón.",
+      "price": 1500,
+      "colors": ["blanco", "negro", "gris", "azul", "verde", "amarillo", "rosa"],
+      "size": ["small", "medium", "large"],
+      "srcImg": ["https://res.cloudinary.com/dtq1qaw4z/image/upload/v1668610998/alta-pinta/remera-azul2_bpmhsh.webp", "https://res.cloudinary.com/dtq1qaw4z/image/upload/v1668610998/alta-pinta/remera-azul1_byil0b.webp"] 
+    },
+    {
+      "id": 4,
+      "category": "abrigos-y-camperas",
+      "title": "Campera",
+      "descption": "Campera de invierno.",
+      "price": 6000,
+      "colors": ["blanco", "negro", "gris", "azul", "verde"],
+      "size": ["small", "medium", "large"],
+      "srcImg": ["https://res.cloudinary.com/dtq1qaw4z/image/upload/v1668876928/alta-pinta/campera_d3zggp.jpg"] 
+    },
+    {
+      "id": 5,
+      "category": "calzados",
+      "title": "Zapatos",
+      "descption": "Zapatos de cuero.",
+      "price": 3000,
+      "colors": [ "negro", "marrón"],
+      "size": [38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48],
+      "srcImg": ["https://res.cloudinary.com/dtq1qaw4z/image/upload/v1668877053/alta-pinta/brown-leather-shoes_twujbu.jpg"] 
+    },
+    {
+      "id": 6,
+      "category": "sweaters-y-cardigans",
+      "title": "Sweeter",
+      "descption": "Sweeter de lana.",
+      "price": 3900,
+      "colors": ["blanco", "negro", "gris", "azul", "verde", "camel"],
+      "size": ["small", "medium", "large"],
+      "srcImg": ["https://res.cloudinary.com/dtq1qaw4z/image/upload/v1668610998/alta-pinta/campera4_mj11ac.webp", "https://res.cloudinary.com/dtq1qaw4z/image/upload/v1668610998/alta-pinta/campera3_qivulu.webp"] 
+    }
+  ]
+  
+}
