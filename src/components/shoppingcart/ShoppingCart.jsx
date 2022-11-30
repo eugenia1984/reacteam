@@ -3,9 +3,13 @@ import { faHeart } from "@fortawesome/free-regular-svg-icons";
 
 function ShoppingCart() {
   return (
-    <p className="text-light">
-      <FontAwesomeIcon icon={faHeart} />
-    </p>
+    <div className="bg-dark">
+      <div className="container">
+        <p className="text-light  text-end p-3">
+          <FontAwesomeIcon icon={faHeart} />
+        </p>
+      </div>
+    </div>
   );
 }
 
