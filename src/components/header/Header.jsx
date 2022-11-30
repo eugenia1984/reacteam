@@ -2,9 +2,7 @@ import NavbarHeader from "./NavbarHeader.jsx";
 
 function Header() {
   return(
-    <>
-      <NavbarHeader />
-    </>
+    <NavbarHeader />
   )
 }
 

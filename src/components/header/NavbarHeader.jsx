@@ -7,7 +7,7 @@ import ShoppingCart from "../shoppingcart/ShoppingCart.jsx";
 
 function NavbarHeader() {
   const links = [
-    { to: "/",text:"Home" },
+    { to: "/", text:"Home" },
     { to: "/productos", text:"Productos" },
     { to: "/contacto", text:"contacto" }    
   ];
@@ -15,9 +15,8 @@ function NavbarHeader() {
   return (
     <Navbar bg="dark" variant="dark" expand="lg">
       <Container>
-        <Navbar.Brand href="/">
-          <Logo />
-          Alta Pinta
+        <Navbar.Brand >
+          <Link to="/" className="nav-link link-light"><Logo /> Alta Pinta</Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
