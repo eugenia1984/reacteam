@@ -26,7 +26,6 @@ function NavbarHeader() {
             ))}
           </Nav>
         </Navbar.Collapse>
-        <ShoppingCart />
       </Container>
     </Navbar>
   );
