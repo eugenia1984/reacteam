@@ -1,31 +1,4 @@
-{
-  "categories": [ 
-    {
-      "id": 1,
-      "categorie": "pantalones"
-    },
-    {
-      "id": 2,
-      "categorie": "remeras-y-polos"
-    },
-    {
-      "id": 3,
-      "categorie": "abrigos-y-camperas"
-    },
-    {
-      "id": 4,
-      "categorie": "calzados"
-    },
-    {
-      "id": 5,
-      "categorie": "camisas"
-    },
-    {
-      "id": 6,
-      "categorie": "sweaters-y-cardigans"
-    }
-  ],
-  "products": [
+const DUMMY_PRODUCTS = [
     {
       "id": 1,
       "category": "pantalones",
@@ -196,6 +169,6 @@
       "size": ["XS", "S", "M", "L", "XL"],
       "srcImg": ["https://res.cloudinary.com/dtq1qaw4z/image/upload/v1669826081/alta-pinta/13222902153_uio6dw.webp", "https://res.cloudinary.com/dtq1qaw4z/image/upload/v1668610984/alta-pinta/bermuda-rustico1_qwgivo.webp", "https://res.cloudinary.com/dtq1qaw4z/image/upload/v1669826081/alta-pinta/13222902153_3_mt06h0.webp"] 
     }
-  ]
-  
-}
+];
+
+export default DUMMY_PRODUCTS;
