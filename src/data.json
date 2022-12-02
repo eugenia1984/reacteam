@@ -195,6 +195,56 @@
       "colors": ["negro", "gris", "azul", "verde", "celeste"],
       "size": ["XS", "S", "M", "L", "XL"],
       "srcImg": ["https://res.cloudinary.com/dtq1qaw4z/image/upload/v1669826081/alta-pinta/13222902153_uio6dw.webp", "https://res.cloudinary.com/dtq1qaw4z/image/upload/v1668610984/alta-pinta/bermuda-rustico1_qwgivo.webp", "https://res.cloudinary.com/dtq1qaw4z/image/upload/v1669826081/alta-pinta/13222902153_3_mt06h0.webp"] 
+    },
+     {
+      "id": 18,
+      "category": "calzados",
+      "title": "Zapatillas",
+      "descption": "Zapatillas deportivas blancas.",
+      "price": 3690,
+      "colors": [ "negro", "azul"],
+      "size": [38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48],
+      "srcImg": ["https://res.cloudinary.com/dtq1qaw4z/image/upload/v1670014488/alta-pinta/pexels-humphrey-muleba-2072453_ub84uc.jpg"] 
+    },
+    {
+      "id": 19,
+      "category": "calzados",
+      "title": "Borcegos",
+      "descption": "Borcegos de cuero.",
+      "price": 3890,
+      "colors": [ "negro", "marrón"],
+      "size": [38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48],
+      "srcImg": ["https://res.cloudinary.com/dtq1qaw4z/image/upload/v1670014676/alta-pinta/borcegos_iv3bcv.jpg"] 
+    },
+    {
+      "id": 20,
+      "category": "calzados",
+      "title": "Zapatos",
+      "descption": "Zapatos de cuero.",
+      "price": 3890,
+      "colors": [ "negro", "marrón"],
+      "size": [38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48],
+      "srcImg": ["https://res.cloudinary.com/dtq1qaw4z/image/upload/v1670014756/alta-pinta/292999_w4s989.jpg"] 
+    },
+    {
+      "id": 21,
+      "category": "calzados",
+      "title": "Borcegos",
+      "descption": "Borcegos de cuero.",
+      "price": 3890,
+      "colors": [ "negro", "marrón"],
+      "size": [38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48],
+      "srcImg": ["https://res.cloudinary.com/dtq1qaw4z/image/upload/v1670014885/alta-pinta/borcego-3_hddmvw.jpg", "https://res.cloudinary.com/dtq1qaw4z/image/upload/v1670014843/alta-pinta/borcego-2_i9lqds.jpg"] 
+    },
+    {
+      "id": 22,
+      "category": "pantalones",
+      "title": "Pantalón gabardina",
+      "descption": "Pantalón de gabardina para el verano.",
+      "price": 3200,
+      "colors": ["blanco", "negro", "gris", "azul", "verde", "camel"],
+      "size": ["XS", "S", "M", "L", "XL"],
+      "srcImg": ["https://res.cloudinary.com/dtq1qaw4z/image/upload/v1670015008/alta-pinta/pantalon-camel-2_ehohob.jpg", "https://res.cloudinary.com/dtq1qaw4z/image/upload/v1670015007/alta-pinta/pantalon-camel-1_prbuq5.jpg"] 
     }
   ]
   
