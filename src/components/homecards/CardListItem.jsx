@@ -7,7 +7,7 @@ export const CardListItem = props => {
   const navigate = useNavigate();
 
   const handlerClick = () => {
-    navigate(`/productos/${props.cardHomeInfo.to}`)
+    navigate(`/cart`, { state: { name: props.cardHomeInfo.to} })
   }
 
   return (

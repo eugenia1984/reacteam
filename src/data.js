@@ -1,31 +1,4 @@
-{
-  "categories": [ 
-    {
-      "id": 1,
-      "categorie": "pantalones"
-    },
-    {
-      "id": 2,
-      "categorie": "remeras-y-polos"
-    },
-    {
-      "id": 3,
-      "categorie": "abrigos-y-camperas"
-    },
-    {
-      "id": 4,
-      "categorie": "calzados"
-    },
-    {
-      "id": 5,
-      "categorie": "camisas"
-    },
-    {
-      "id": 6,
-      "categorie": "sweaters-y-cardigans"
-    }
-  ],
-  "products": [
+const DUMMY_PRODUCTS = [
     {
       "id": 1,
       "category": "pantalones",
@@ -246,6 +219,6 @@
       "size": ["XS", "S", "M", "L", "XL"],
       "srcImg": ["https://res.cloudinary.com/dtq1qaw4z/image/upload/v1670015008/alta-pinta/pantalon-camel-2_ehohob.jpg", "https://res.cloudinary.com/dtq1qaw4z/image/upload/v1670015007/alta-pinta/pantalon-camel-1_prbuq5.jpg"] 
     }
-  ]
-  
-}
+];
+
+export default DUMMY_PRODUCTS;
