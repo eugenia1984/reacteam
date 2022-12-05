@@ -10,6 +10,7 @@
   align-items: center;
   border-radius: 25px;
   font-weight: bold;
+  border: 2px solid white;
 }
 
 .icon {

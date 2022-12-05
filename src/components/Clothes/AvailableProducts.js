@@ -9,7 +9,7 @@ const AvailableProducts = (props) => {
       key={product.id}
       id={product.id}
       name={product.title}
-      description={product.descption}
+      description={product.description}
       price={product.price}
     />
   ));
