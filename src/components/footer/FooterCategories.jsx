@@ -2,12 +2,12 @@ import { Link } from "react-router-dom";
 
 function FooterCategories(){
   const categories = [
-    { categoria: "Pantalones", link:"pantalones" },
-    { categoria: "Remeras y polos", link: "remeras-y-polos" },
-    { categoria: "Abrigos y camperas", link: "abrigos-y-camperas" },
-    { categoria: "Calzados", link: "calzados" },
-    { categoria: "Camisas", link: "camisas" },
-    { categoria: "Sweaters y cardigans", link: "sweaters-y-cardigans" }
+    { categoria: "Pantalones", link:"" },
+    { categoria: "Remeras y polos", link: "" },
+    { categoria: "Abrigos y camperas", link: "" },
+    { categoria: "Calzados", link: "" },
+    { categoria: "Camisas", link: "" },
+    { categoria: "Sweaters y cardigans", link: "" }
   ];
 
   return(
