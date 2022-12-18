@@ -4,8 +4,8 @@ import Title from "../../generalcomponents/Title";
 export const Contact = () => {
   return (
     <div className="container">
-      <Title text="contacto" /> 
+      <Title text="Contacto" /> 
       <ContactForm />
     </div>
-  );
+  )
 }

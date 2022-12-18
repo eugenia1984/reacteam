@@ -7,5 +7,5 @@ export const Home = () => {
       <Banner />
       <CardList />
     </>
-  );
+  )
 }
