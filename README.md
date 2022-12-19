@@ -1,19 +1,28 @@
 # <img src="https://img.icons8.com/office/40/null/react.png"/> Trabajo grupal de React en Codo a Codo
 
-:tv: -> [Demo (haciendo click acá)](https://alta-pinta.netlify.app/)
-
 
 Realizamos un e-commerce de ropa en el cual...
 
 ... se pueden registrar o loguear con el e-mail de gmail.
 
+![login](https://user-images.githubusercontent.com/72580574/208433213-861e7d22-a208-4306-8f21-af0d7993db71.png)
+
 ... en **home** con **banner**(sliders) y **cards** con las categorias de los productos.
+
+![home, banner y cards](https://user-images.githubusercontent.com/72580574/208433110-1c11cd4c-a57d-44b0-9362-a29a3b97e457.png)
 
 ... en **productos** mostramos los **productos** y haciendo click en el botón **ver** mostramos todos los datos del mismo (con SweetAlert2).
 
+![listado de productos y descripcion](https://user-images.githubusercontent.com/72580574/208433423-903e179b-c4a7-4112-a622-7c3681dd1f8c.png)
+
 ... un carro de compras, donde ir agregando los productos. Se puede ver el listado de los productos del carro de compras.
 
+![carro de compra](https://user-images.githubusercontent.com/72580574/208433645-7fd21b3b-e8f3-47d1-96a6-d271e607b34c.png)
+
+
 ... en **contacto** hay un formulario de contacto.
+
+![formulario de contacto](https://user-images.githubusercontent.com/72580574/208433520-fcf78b81-f7a1-4f17-99ce-430d453c46bd.png)
 
 
 ---
