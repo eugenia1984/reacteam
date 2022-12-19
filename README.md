@@ -114,3 +114,19 @@ README.md
 ```
 
 ---
+
+## :computer: ¿Cómo verlo localmente?
+
+1. Clonar el proyecto con **HTTPS** copiando el siguiente link: [https://github.com/VaninaWinnik/reacteam.git](https://github.com/VaninaWinnik/reacteam.git).
+
+2. En local crear una carpeta donde guardar este proyecto
+
+3. Clonar el proyecto con: ```git clone origin https://github.com/VaninaWinnik/reacteam.git .```
+
+4. Abrir el proyecto (```git code .```)
+
+5. Ya en el proyecto bajarse todas las dependencias con: ```npm install```
+
+6. Correr el proyecto con: ```npm start```
+
+---
