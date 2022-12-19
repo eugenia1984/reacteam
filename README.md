@@ -117,7 +117,7 @@ README.md
 
 ## :computer: ¿Cómo verlo localmente?
 
-1. Clonar el proyecto con **HTTPS** copiando el siguiente link: [https://github.com/VaninaWinnik/reacteam.git](https://github.com/VaninaWinnik/reacteam.git).
+1. Clonar el proyecto con **HTTPS** copiando el siguiente link: [https://github.com/eugenia1984/reacteam.git](https://github.com/VaninaWinnik/reacteam.git).
 
 2. En local crear una carpeta donde guardar este proyecto
 
