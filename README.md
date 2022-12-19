@@ -121,7 +121,7 @@ README.md
 
 2. En local crear una carpeta donde guardar este proyecto
 
-3. Clonar el proyecto con: ```git clone origin https://github.com/VaninaWinnik/reacteam.git .```
+3. Clonar el proyecto con: ```git clone origin [https://github.com/VaninaWinnik/reacteam.git](https://github.com/eugenia1984/reacteam.git) .```
 
 4. Abrir el proyecto (```git code .```)
 
