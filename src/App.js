@@ -1,23 +1,20 @@
-import { Routes, Route } from "react-router-dom";
+import { MainLayout } from "./components/layouts";
 import Header from "./components/header/Header.jsx";
+import { Router } from "./components/router";
+import { LoginProvider } from "./components/login";
 import Footer from "./components/footer/Footer.jsx";
-import Home from "./pages/Home.jsx";
-import Productos from "./pages/Productos.jsx";
-import Contacto from "./pages/Contacto.jsx";
-import CardList from "./components/ProductList/CardList"
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />}/>
-        <Route path="/productos" element={<Productos />} />
-        <Route path="/contacto" element={<Contacto />} />
-      </Routes>
-      <CardList />
-      <Footer />
+      <LoginProvider>
+        <Header />
+        <MainLayout>
+          <Router />
+        </MainLayout>
+        <Footer />
+      </LoginProvider>
     </div>
   );
 }

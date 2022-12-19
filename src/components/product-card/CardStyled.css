@@ -1,0 +1,14 @@
+.product-card {
+  width: 230px;
+  margin: 0 auto;
+}
+
+.product-card-img {
+  height: 250px;
+  object-fit: cover;
+}
+
+.swal2-image {
+  object-fit: contain;
+}
+
